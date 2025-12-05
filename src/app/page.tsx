@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -9,7 +9,7 @@ import ProductCardTwo from '@/components/sections/product/ProductCardTwo';
 import TestimonialCardFourteen from '@/components/sections/testimonial/TestimonialCardFourteen';
 import ContactInline from '@/components/sections/contact/ContactInline';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { Chef, Leaf, Heart, Home, Flame, Soup, Package, Droplet } from "lucide-react";
+import { ChefHat, Leaf, Heart, Home, Flame, Soup, Package, Droplet } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -56,7 +56,7 @@ export default function LandingPage() {
         <SplitAboutFeatures
           title="Our Story"
           features={[
-            { text: "Authentic recipes passed down through generations with traditional Korean cooking methods", icon: Chef },
+            { text: "Authentic recipes passed down through generations with traditional Korean cooking methods", icon: ChefHat },
             { text: "Fresh ingredients sourced daily from premium suppliers to ensure quality and flavor", icon: Leaf },
             { text: "Warm hospitality and genuine care creating a welcoming community for every guest", icon: Heart },
             { text: "Modern elegance meets cultural heritage in our thoughtfully designed dining space", icon: Home }
